@@ -1,0 +1,23 @@
+p {
+    font-size: 30px;
+}
+
+body {
+    background-color: blue;
+    color: white;
+
+    /*border-radius: 20%;
+    border-color: white;
+    border-style:outset;*/
+}
+
+div {
+    background-image: url("./banner.jpg"); /* Define uma imagem como background */
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+h1 {
+    font-family: 'Titillium Web', sans-serif;
+}
