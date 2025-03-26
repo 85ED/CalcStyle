@@ -21,44 +21,60 @@
                     </p>
                 </div>
             </div>
-
-            <p>
-            <h3>Digite um número decimal: <input id="demo1" type="text" placeholder="Ex: 42"> </h3>
-            </p>
-
-            <button class="botao" onclick="converter()">Converter</button>
-
-            <h3>Resultados:</h3>
-
             <div class="container">
 
                 <div class="octal">
-                    <p>Octal:
+                    <p>OCTAL
                     <div id="demo2"></div>
                     </p>
                 </div>
                 <div class="hexadecimal">
-                    <p>Hexadecimal:
+                    <p>HEXADECIMAL
                     <div id="demo3"></div>
                     </p>
                 </div>
                 <div class="binario">
-                    <p>Binário:
+                    <p>BINÁRIO
                     <div id="demo4"></div>
                     </p>
                 </div>
 
 
-                <script>
-                    function converter() {
-                        var decimal = Number(demo1.value);
-                        demo2.innerHTML = decimal.toString(8);
-                        demo3.innerHTML = decimal.toString(16);
-                        demo4.innerHTML = decimal.toString(2);
-                    }
-                </script>
+
     </body>
 
 </div>
+
+<div class="col-12">
+    <div class="fundo">
+        <p>
+        <h1 class="main-titla">Converta rapidamente entre binário, decimal e hexadecimal <br>
+            com nossa calculadora de sistema de numeração</h1>
+        </p>
+    </div>
+</div>
+
+
+
+<span style="color: white;">
+    <p>
+    <h3 class="edson">Digite um número decimal: <input id="demo1" type="text" placeholder="Ex: 42"> </h3>
+    </p>
+</span>
+
+<button class="botao" onclick="converter()">Converter</button>
+
+<div class="footer">
+    <img class='footer-img' src="img/images.png" alt="Imagem centralizada na parte inferior">
+</div>
+
+<script>
+    function converter() {
+        var decimal = Number(demo1.value);
+        demo2.innerHTML = decimal.toString(8);
+        demo3.innerHTML = decimal.toString(16);
+        demo4.innerHTML = decimal.toString(2);
+    }
+</script>
 
 </html>
