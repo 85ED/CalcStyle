@@ -58,11 +58,12 @@
 
 <span style="color: white;">
     <p>
-    <h3 class="edson">Digite um número decimal: <input id="demo1" type="text" placeholder="Ex: 42"> </h3>
+    <h3 class="edson">Digite um número decimal: <input id="demo1" type="text" placeholder="Ex: 1024"> </h3>
     </p>
 </span>
 
 <button class="botao" onclick="converter()">Converter</button>
+<button class="botao_z" onclick="resetar()">Limpar</button>
 
 <div class="footer">
     <img class='footer-img' src="img/images.png" alt="Imagem centralizada na parte inferior">
@@ -74,6 +75,13 @@
         demo2.innerHTML = decimal.toString(8);
         demo3.innerHTML = decimal.toString(16);
         demo4.innerHTML = decimal.toString(2);
+    }
+
+    function resetar() {
+        demo1.value = "";
+        demo2.innerHTML = "";
+        demo3.innerHTML = "";
+        demo4.innerHTML = "";
     }
 </script>
 

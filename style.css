@@ -10,9 +10,8 @@ body {
     /* Ocupa 100% da altura da janela */
     margin: 0;
     /* Remove a margem padrão */
-    overflow: hidden;
+    /*overflow: hidden;
     /* Impede o scroll */
-
 }
 
 body {
@@ -21,7 +20,6 @@ body {
     background-image: url('img/ufo.png');
     background-size: cover;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
-
 }
 
 .container {
@@ -29,7 +27,6 @@ body {
     justify-content: space-evenly;
     flex-wrap: wrap;
     align-items: flex-start;
-
 }
 
 .octal,
@@ -48,11 +45,7 @@ body {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-
-
-
 }
-
 
 div {
     background-image: url("./banner.jpg");
@@ -60,8 +53,6 @@ div {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 
 h1,
 h2,
@@ -73,12 +64,11 @@ h6 {
 }
 
 .fundo {
-    background-image: url('');
+
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     padding: 2rem 1.5rem;
-
 }
 
 .main-title {
@@ -90,11 +80,7 @@ h6 {
 .main-titla {
     color: white;
     margin-top: -150px;
-
-
 }
-
-
 
 .botao {
     background-color: gray;
@@ -102,9 +88,8 @@ h6 {
     color: white;
     padding: 15px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 8px;
@@ -113,6 +98,26 @@ h6 {
 }
 
 .botao:hover {
+    background-color: black;
+    color: white;
+}
+
+.botao_z {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.botao_z:hover {
     background-color: black;
     color: white;
 }
@@ -150,4 +155,15 @@ input {
 .edson {
     color: white;
     margin-top: -80px;
+}
+
+#demo1 {
+    width: 200px; /*  largura */
+    height: 25px; /* altura */
+    font-size: 18px; 
+    padding: 10px;
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #f1f1f1; /* Cor de fundo da caixa */
+    color: #333; /* Cor do texto digitado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
